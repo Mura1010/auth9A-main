@@ -1,6 +1,5 @@
 <x-app-layout>
 
-
     <div class="flex min-h-screen">
         <!-- Sidebar -->
         <div class="w-64 bg-gray-900 text-white p-5 hidden md:block">
@@ -37,23 +36,23 @@
                 <table class="w-full border-collapse border border-gray-300">
                     <thead>
                         <tr class="bg-gray-200">
-                            <th class="border border-gray-300 p-2">No</th>
-                            <th class="border border-gray-300 p-2">Name</th>
-                            <th class="border border-gray-300 p-2">Date</th>
+                            <th class="border border-gray-300 p-2">NO</th>
+                            <th class="border border-gray-300 p-2">Image</th>
+                            <th class="border border-gray-300 p-2">Uploader</th>
                             <th class="border border-gray-300 p-2">Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="border border-gray-300 p-2">1</td>
+                            <td class="border border-gray-300 p-2">image1.jpg</td>
                             <td class="border border-gray-300 p-2">Dani</td>
-                            <td class="border border-gray-300 p-2">30 February 2025</td>
                             <td class="border border-gray-300 p-2 text-green-600">Approved</td>
                         </tr>
                         <tr>
                             <td class="border border-gray-300 p-2">2</td>
+                            <td class="border border-gray-300 p-2">image2.jpg</td>
                             <td class="border border-gray-300 p-2">Laode</td>
-                            <td class="border border-gray-300 p-2">31 April 2025</td>
                             <td class="border border-gray-300 p-2 text-yellow-600">Pending</td>
                         </tr>
                     </tbody>
